@@ -1,0 +1,6 @@
+framework module Pods_Phunware {
+  umbrella header "Pods-Phunware-umbrella.h"
+
+  export *
+  module * { export * }
+}

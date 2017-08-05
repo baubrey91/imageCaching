@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39943ECE1F35725000EEA662 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39943ECD1F35725000EEA662 /* DetailViewController.swift */; };
+		39943ED01F357F7A00EEA662 /* PhotosManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39943ECF1F357F7A00EEA662 /* PhotosManager.swift */; };
+		57158A87543324F971D86A20 /* Pods_Phunware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EC9047C48449A12D2A250E /* Pods_Phunware.framework */; };
+		CA776AEC1F3514990031B250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA776AEB1F3514990031B250 /* AppDelegate.swift */; };
+		CA776AEE1F3514990031B250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA776AED1F3514990031B250 /* ViewController.swift */; };
+		CA776AF11F3514990031B250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA776AEF1F3514990031B250 /* Main.storyboard */; };
+		CA776AF31F3514990031B250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA776AF21F3514990031B250 /* Assets.xcassets */; };
+		CA776AF61F3514990031B250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA776AF41F3514990031B250 /* LaunchScreen.storyboard */; };
+		CA776AFE1F3516640031B250 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA776AFD1F3516640031B250 /* Client.swift */; };
+		CA776B021F3516890031B250 /* SWEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA776B011F3516890031B250 /* SWEvent.swift */; };
+		CA776B041F3525800031B250 /* SWCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA776B031F3525800031B250 /* SWCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39943ECD1F35725000EEA662 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		39943ECF1F357F7A00EEA662 /* PhotosManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosManager.swift; sourceTree = "<group>"; };
+		43EC9047C48449A12D2A250E /* Pods_Phunware.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phunware.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B30800AC0440D2B6A32661 /* Pods-Phunware.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phunware.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phunware/Pods-Phunware.debug.xcconfig"; sourceTree = "<group>"; };
+		CA776AE81F3514990031B250 /* Phunware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phunware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA776AEB1F3514990031B250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA776AED1F3514990031B250 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA776AF01F3514990031B250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA776AF21F3514990031B250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA776AF51F3514990031B250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA776AF71F3514990031B250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA776AFD1F3516640031B250 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		CA776B011F3516890031B250 /* SWEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWEvent.swift; sourceTree = "<group>"; };
+		CA776B031F3525800031B250 /* SWCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWCollectionViewCell.swift; sourceTree = "<group>"; };
+		FBDD72187AAFD1509E8E39CE /* Pods-Phunware.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phunware.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phunware/Pods-Phunware.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA776AE51F3514990031B250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57158A87543324F971D86A20 /* Pods_Phunware.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9322C2509A8FB828D3B5A5C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2B30800AC0440D2B6A32661 /* Pods-Phunware.debug.xcconfig */,
+				FBDD72187AAFD1509E8E39CE /* Pods-Phunware.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3145C0DD903EE3E81A0E799 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43EC9047C48449A12D2A250E /* Pods_Phunware.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA776ADF1F3514990031B250 = {
+			isa = PBXGroup;
+			children = (
+				CA776AEA1F3514990031B250 /* Phunware */,
+				CA776AE91F3514990031B250 /* Products */,
+				9322C2509A8FB828D3B5A5C4 /* Pods */,
+				C3145C0DD903EE3E81A0E799 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA776AE91F3514990031B250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA776AE81F3514990031B250 /* Phunware.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA776AEA1F3514990031B250 /* Phunware */ = {
+			isa = PBXGroup;
+			children = (
+				CA776B001F3516740031B250 /* Model */,
+				CA776AFF1F35166A0031B250 /* API */,
+				CA776AEB1F3514990031B250 /* AppDelegate.swift */,
+				CA776B031F3525800031B250 /* SWCollectionViewCell.swift */,
+				CA776AED1F3514990031B250 /* ViewController.swift */,
+				39943ECD1F35725000EEA662 /* DetailViewController.swift */,
+				39943ECF1F357F7A00EEA662 /* PhotosManager.swift */,
+				CA776AEF1F3514990031B250 /* Main.storyboard */,
+				CA776AF21F3514990031B250 /* Assets.xcassets */,
+				CA776AF41F3514990031B250 /* LaunchScreen.storyboard */,
+				CA776AF71F3514990031B250 /* Info.plist */,
+			);
+			path = Phunware;
+			sourceTree = "<group>";
+		};
+		CA776AFF1F35166A0031B250 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CA776AFD1F3516640031B250 /* Client.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		CA776B001F3516740031B250 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA776B011F3516890031B250 /* SWEvent.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA776AE71F3514990031B250 /* Phunware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA776AFA1F3514990031B250 /* Build configuration list for PBXNativeTarget "Phunware" */;
+			buildPhases = (
+				06D221FEDDF5A306062FDC0C /* [CP] Check Pods Manifest.lock */,
+				CA776AE41F3514990031B250 /* Sources */,
+				CA776AE51F3514990031B250 /* Frameworks */,
+				CA776AE61F3514990031B250 /* Resources */,
+				D5425D8249834BF27A1DD09F /* [CP] Embed Pods Frameworks */,
+				CBF7E5FA3C83A224F33ACB02 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phunware;
+			productName = Phunware;
+			productReference = CA776AE81F3514990031B250 /* Phunware.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA776AE01F3514990031B250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BrandonAubrey;
+				TargetAttributes = {
+					CA776AE71F3514990031B250 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 68W2B53UFP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CA776AE31F3514990031B250 /* Build configuration list for PBXProject "Phunware" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA776ADF1F3514990031B250;
+			productRefGroup = CA776AE91F3514990031B250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA776AE71F3514990031B250 /* Phunware */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA776AE61F3514990031B250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA776AF61F3514990031B250 /* LaunchScreen.storyboard in Resources */,
+				CA776AF31F3514990031B250 /* Assets.xcassets in Resources */,
+				CA776AF11F3514990031B250 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06D221FEDDF5A306062FDC0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF7E5FA3C83A224F33ACB02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phunware/Pods-Phunware-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5425D8249834BF27A1DD09F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phunware/Pods-Phunware-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA776AE41F3514990031B250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA776B021F3516890031B250 /* SWEvent.swift in Sources */,
+				CA776AEE1F3514990031B250 /* ViewController.swift in Sources */,
+				CA776AEC1F3514990031B250 /* AppDelegate.swift in Sources */,
+				39943ECE1F35725000EEA662 /* DetailViewController.swift in Sources */,
+				CA776B041F3525800031B250 /* SWCollectionViewCell.swift in Sources */,
+				CA776AFE1F3516640031B250 /* Client.swift in Sources */,
+				39943ED01F357F7A00EEA662 /* PhotosManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA776AEF1F3514990031B250 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA776AF01F3514990031B250 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA776AF41F3514990031B250 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA776AF51F3514990031B250 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA776AF81F3514990031B250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA776AF91F3514990031B250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA776AFB1F3514990031B250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B30800AC0440D2B6A32661 /* Pods-Phunware.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68W2B53UFP;
+				INFOPLIST_FILE = Phunware/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrandonAubrey.Phunware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA776AFC1F3514990031B250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDD72187AAFD1509E8E39CE /* Pods-Phunware.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68W2B53UFP;
+				INFOPLIST_FILE = Phunware/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrandonAubrey.Phunware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA776AE31F3514990031B250 /* Build configuration list for PBXProject "Phunware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA776AF81F3514990031B250 /* Debug */,
+				CA776AF91F3514990031B250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA776AFA1F3514990031B250 /* Build configuration list for PBXNativeTarget "Phunware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA776AFB1F3514990031B250 /* Debug */,
+				CA776AFC1F3514990031B250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA776AE01F3514990031B250 /* Project object */;
+}
