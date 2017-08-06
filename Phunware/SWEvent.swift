@@ -18,8 +18,8 @@ class SWEvent {
     var timeStamp: String?
     var imageURL: String?
     var date: String?
-    var locationLine: String?
-    var locationLine2: String?
+    var locationline1: String?
+    var locationline2: String?
     
     init(json: NSDictionary) {
         id = json["id"] as? Int
@@ -28,7 +28,7 @@ class SWEvent {
         timeStamp = json["timeStamp"] as? String
         imageURL = json["image"] as? String
         date = json["date"] as? String
-        locationLine = json["locationLine"] as? String
-        locationLine2 = json["locationLine2"] as? String
+        locationline1 = json["locationline1"] as? String
+        locationline2 = json["locationline2"] as? String
     }
 }

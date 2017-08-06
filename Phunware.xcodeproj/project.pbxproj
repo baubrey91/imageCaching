@@ -88,13 +88,11 @@
 		CA776AEA1F3514990031B250 /* Phunware */ = {
 			isa = PBXGroup;
 			children = (
+				CA9BC3541F36815500BA9F93 /* Controller */,
+				CA9BC3531F36813600BA9F93 /* Controller */,
 				CA776B001F3516740031B250 /* Model */,
 				CA776AFF1F35166A0031B250 /* API */,
 				CA776AEB1F3514990031B250 /* AppDelegate.swift */,
-				CA776B031F3525800031B250 /* SWCollectionViewCell.swift */,
-				CA776AED1F3514990031B250 /* ViewController.swift */,
-				39943ECD1F35725000EEA662 /* DetailViewController.swift */,
-				39943ECF1F357F7A00EEA662 /* PhotosManager.swift */,
 				CA776AEF1F3514990031B250 /* Main.storyboard */,
 				CA776AF21F3514990031B250 /* Assets.xcassets */,
 				CA776AF41F3514990031B250 /* LaunchScreen.storyboard */,
@@ -114,9 +112,27 @@
 		CA776B001F3516740031B250 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				39943ECF1F357F7A00EEA662 /* PhotosManager.swift */,
 				CA776B011F3516890031B250 /* SWEvent.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		CA9BC3531F36813600BA9F93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA776AED1F3514990031B250 /* ViewController.swift */,
+				39943ECD1F35725000EEA662 /* DetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CA9BC3541F36815500BA9F93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA776B031F3525800031B250 /* SWCollectionViewCell.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

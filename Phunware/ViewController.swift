@@ -35,23 +35,21 @@ class ViewController: UIViewController {
         if segue.identifier == "detailSegue" {
             let vc = segue.destination as! DetailViewController
             let indexPath = collectionView.indexPath(for: sender as! SWCollectionViewCell)!
-            vc.imgURL = events[indexPath.row].imageURL
-            
+            let cell = collectionView.cellForItem(at: indexPath) as! SWCollectionViewCell
+            vc.eventDate = cell.dateLabel.text
+            vc.eventDescription = cell.descriptionLabel.text
+            vc.eventTitle = cell.titleLabel.text
+            vc.imgURL = cell.imgURL
         }
     }
 }
 
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
-//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        
-//        <#code#>
-//    }
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let deviceIdiom = UIScreen.main.traitCollection.userInterfaceIdiom
         let width = (deviceIdiom == .pad) ? (Int(self.view.frame.width) / 2) : Int(self.view.frame.width)
-        let height = 160
+        let height = (deviceIdiom == .pad) ? (Int(self.view.frame.height) / 4) : (Int(self.view.frame.height) / 3)
         return CGSize(width: width, height: height)
     }
     

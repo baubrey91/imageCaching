@@ -2,4 +2,54 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Phunware/PhotosManager.swift"
+            timestampString = "523665258.146947"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "retrieveImage(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Phunware.PhotosManager.retrieveImage (for : Swift.String, completion : (__ObjC.UIImage) -&gt; ()) -&gt; Alamofire.Request"
+                  moduleName = "Phunware"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandon/Desktop/imageCaching/Phunware/PhotosManager.swift"
+                  timestampString = "523664332.032791"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Phunware.PhotosManager.(retrieveImage (for : Swift.String, completion : (__ObjC.UIImage) -&gt; ()) -&gt; Alamofire.Request).(closure #1)"
+                  moduleName = "Phunware"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandon/Desktop/imageCaching/Phunware/PhotosManager.swift"
+                  timestampString = "523664332.034329"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
