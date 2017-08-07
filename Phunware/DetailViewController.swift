@@ -35,10 +35,10 @@ class DetailViewController: UIViewController {
         if let img = imgURL, let image = photosManager.cachedImage(for: img) {
             imageView.image = image
         }
-        let texth = textView.frame.height
-        let contentWidth = scrollView.bounds.width
-        let contentHeight = scrollView.bounds.height + texth
-        scrollView.contentSize = CGSize(width: contentWidth, height: contentHeight)
+        //let texth = textView.frame.height
+        //let contentWidth = scrollView.bounds.width
+        //let contentHeight = scrollView.bounds.height + 100
+        //scrollView.contentSize = CGSize(width: contentWidth, height: contentHeight)
     }
     
     @IBAction func shareButton(_ sender: Any) {
